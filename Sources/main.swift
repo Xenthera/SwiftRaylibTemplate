@@ -1,9 +1,6 @@
 import Raylib
 
 func main(){
-    let x = cpu6502()
-    x.test()
-
     let screenWidth: Int32 = 800
     let screenHeight: Int32 = 450
 
