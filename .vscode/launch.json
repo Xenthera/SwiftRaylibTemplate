@@ -31,9 +31,9 @@
                 "swift"
             ],
             "args": [],
-            "cwd": "${workspaceFolder:SwiftRaylibTest}",
+            "cwd": "${workspaceFolder:SwiftRaylibTemplate}",
             "name": "Debug SwiftRaylibTemplate",
-            "program": "${workspaceFolder:SwiftRaylibTest}/.build/debug/SwiftRaylibTemplate",
+            "program": "${workspaceFolder:SwiftRaylibTemplate}/.build/debug/SwiftRaylibTemplate",
             "preLaunchTask": "swift: Build Debug SwiftRaylibTemplate"
         },
         {
@@ -43,9 +43,9 @@
                 "swift"
             ],
             "args": [],
-            "cwd": "${workspaceFolder:SwiftRaylibTest}",
+            "cwd": "${workspaceFolder:SwiftRaylibTemplate}",
             "name": "Release SwiftRaylibTemplate",
-            "program": "${workspaceFolder:SwiftRaylibTest}/.build/release/SwiftRaylibTemplate",
+            "program": "${workspaceFolder:SwiftRaylibTemplate}/.build/release/SwiftRaylibTemplate",
             "preLaunchTask": "swift: Build Release SwiftRaylibTemplate"
         }
     ]
