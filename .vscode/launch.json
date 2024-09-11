@@ -1,0 +1,52 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftRaylibTest}",
+            "name": "Debug SwiftRaylibTest",
+            "program": "${workspaceFolder:SwiftRaylibTest}/.build/debug/SwiftRaylibTest",
+            "preLaunchTask": "swift: Build Debug SwiftRaylibTest"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftRaylibTest}",
+            "name": "Release SwiftRaylibTest",
+            "program": "${workspaceFolder:SwiftRaylibTest}/.build/release/SwiftRaylibTest",
+            "preLaunchTask": "swift: Build Release SwiftRaylibTest"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftRaylibTest}",
+            "name": "Debug SwiftRaylibTemplate",
+            "program": "${workspaceFolder:SwiftRaylibTest}/.build/debug/SwiftRaylibTemplate",
+            "preLaunchTask": "swift: Build Debug SwiftRaylibTemplate"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftRaylibTest}",
+            "name": "Release SwiftRaylibTemplate",
+            "program": "${workspaceFolder:SwiftRaylibTest}/.build/release/SwiftRaylibTemplate",
+            "preLaunchTask": "swift: Build Release SwiftRaylibTemplate"
+        }
+    ]
+}
